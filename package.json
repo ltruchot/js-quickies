@@ -10,7 +10,8 @@
   },
   "main": "./src/app.ts",
   "scripts": {
-    "start": "nodemon"
+    "start": "nodemon",
+    "npm-reset": "rm -rf node_modules && npm cache verify && npm i"
   },
   "devDependencies": {
     "ts-node": "4.1.0",

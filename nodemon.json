@@ -3,5 +3,6 @@
         "src"
     ],
     "ext": "ts",
-    "exec": "ts-node ./src/app.ts"
+    "exec": "ts-node ./src/app.ts",
+    "port": 3000
 }
